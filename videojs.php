@@ -29,7 +29,6 @@
     </p>
   </video>
 
-  <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
 </body>
 
 <body>
