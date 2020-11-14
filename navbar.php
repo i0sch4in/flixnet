@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php header('Access-Control-Allow-Origin: *'); ?>
 <html>
   <head>
     <meta charset="utf-8">
@@ -15,15 +16,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.0/jquery.validate.min.js"></script>
 
-    <!-- video.js dash.js  -->
-    <link href="https://unpkg.com/@silvermine/videojs-quality-selector/dist/css/quality-selector.css" rel="stylesheet">
+  <!---- video.js dash.js  ---->
+    <!-- <link href="https://unpkg.com/@silvermine/videojs-quality-selector/dist/css/quality-selector.css" rel="stylesheet"> -->
     <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
     <script src="http://cdn.dashjs.org/v3.1.0/dash.all.min.js"></script>
     <script src="lib/videojs-dash.min.js"></script>
-    <script src="lib/ControlBar.js"></script>
+    <!-- <script src="lib/ControlBar.js"></script> -->
     <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
-    <script src="https://unpkg.com/@silvermine/videojs-quality-selector/dist/js/silvermine-videojs-quality-selector.min.js"></script>
+    
+    <!-- videojs quality selector -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-quality-levels/2.0.9/videojs-contrib-quality-levels.min.js"></script>
 
+    <!-- videojs http streaming -->
+    <script src="https://unpkg.com/browse/@videojs/http-streaming@2.3.0/dist/videojs-http-streaming.min.js"></script>
 
 
 

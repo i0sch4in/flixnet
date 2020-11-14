@@ -1,6 +1,6 @@
     <footer class="footer page-footer">
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">🄯 2019 Copyleft:
+      <div class="footer-copyright text-center py-3">🄯 2020 Copyleft:
         <a href="https://git.io/JeyBW"><img src='img/github.png' height='18'/><span class="font-weight-bold"> /i0sch4in</span></a>
       </div>
     </footer>

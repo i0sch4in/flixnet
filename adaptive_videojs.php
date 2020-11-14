@@ -1,8 +1,4 @@
 <?php include "navbar.php" ?>
-<script>
-    var videojs = require('videojs');
-    require('@silvermine/videojs-quality-selector')(videojs);
-</script>
 
 <div class="container">
   <div class="row">
@@ -10,10 +6,19 @@
   </div>
 </div>
 
+
+<?php include "footer.php" ?>
+
 <script>
   var player = videojs('rock');
   player.src({ src: "video/rock/rock-1080p_dash.mpd", type: 'application/dash+xml'});
   player.play();
-</script>
 
-<?php include "footer.php" ?>
+  player.qualityLevels().on('addqualitylevel', function(event) {
+  console.log(event.qualityLevel);
+  });
+  player.qualityLevels().on('change', function() {
+  console.log('Quality Level changed!');
+  console.log('New level:', qualityLevels[qualityLevels.selectedIndex]);
+  });
+</script>
