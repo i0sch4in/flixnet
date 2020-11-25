@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="row">
-    <video id=rock class="video-js vjs-default-skin" width="512" height="288" controls> </video>
+    <video id=nature class="video-js vjs-default-skin" width="512" height="288" controls> </video>
   </div>
 </div>
 
@@ -10,14 +10,13 @@
 <?php include "footer.php" ?>
 
 <script>
-  var player = videojs('rock');
-  player.src({
-    src: "video/rock/rock-480p_dash.mpd",
-    type: 'application/dash+xml'
-  });
-  player.play();
+  var player = videojs('nature');
+  player.ready(function() {
+    player.src({
+      src: 'video/nature/nature.mpd',
+      type: 'application/dash+xml'
+    });
 
-  player.qualityLevels().on('addqualitylevel', function(event) {
-    console.log(event.qualityLevel);
+    player.play();
   });
 </script>

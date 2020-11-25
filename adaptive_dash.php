@@ -6,11 +6,22 @@
   </div>
 </div>
 <script>
-  var url = "video/rock/rock-480p_dash.mpd";
+  // var url = "video/rock/rock.mpd";
+  var url = "video/nature/nature.mpd";
   var player = dashjs.MediaPlayer().create();
   player.initialize(document.querySelector("#videoPlayer"), url, true);
 
-  console.log(player.getBitrateInfoListFor('#videoPlayer'));
+  player.on("streamInitialized", function() {
+    var bitrates = player.getBitrateInfoListFor("video");
+    console.log("list of all bitrates:", bitrates);
+  });
+
+  player.on("qualityChangeRendered", function() {
+    var index = player.getQualityFor("video");
+    var bitrates = player.getBitrateInfoListFor("video");
+    var current = bitrates[index];
+    console.log("Current index is: ", index, current);
+  });
 
   player.play();
 </script>

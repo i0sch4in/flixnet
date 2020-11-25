@@ -14,16 +14,11 @@
   <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.0/jquery.validate.min.js"></script>
 
   <!---- video.js dash.js  ---->
-  <!-- <link href="https://unpkg.com/@silvermine/videojs-quality-selector/dist/css/quality-selector.css" rel="stylesheet"> -->
   <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
   <script src="http://cdn.dashjs.org/v3.1.0/dash.all.min.js"></script>
-  <script src="lib/videojs-dash.min.js"></script>
-  <script src="http://cdn.dashjs.org/latest/dash.all.debug.js"></script>
-  <script src="lib/ControlBar.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-dash/2.11.0/videojs-dash.min.js"></script>
+  <!-- <script src="http://cdn.dashjs.org/latest/dash.all.debug.js"></script> -->
   <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
-
-  <!-- videojs quality selector -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-quality-levels/2.0.9/videojs-contrib-quality-levels.min.js"></script>
 
   <!-- videojs http streaming -->
   <script src="https://unpkg.com/browse/@videojs/http-streaming@2.3.0/dist/videojs-http-streaming.min.js"></script>
@@ -60,7 +55,6 @@
           <div class="dropdown-menu">
             <a href="adaptive_dash.php" class="dropdown-item">Dash</a>
             <a href="adaptive_videojs.php" class="dropdown-item">VideoJS</a>
-            <!-- <a href="" class="dropdown-item">VideoJS (quality control)</a> -->
           </div>
         </li>
         <li class="nav-item">
