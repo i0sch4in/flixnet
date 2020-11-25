@@ -29,7 +29,7 @@
     </div>
     <div class="row">
         <div class="col-sm-3 card">
-            <img src="img/rock_thumbnail.png" alt="" class="card-img-top">
+            <img src="img/nature_thumbnail.png" alt="" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Dash</h5>
                 <p class="card-text">Dash.js liburutegiarekin egindako Adaptive Bitrate streaming-a</p>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="col-sm-3 card">
-            <img src="img/rock_thumbnail.png" alt="" class="card-img-top">
+            <img src="img/nature_thumbnail.png" alt="" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Video.js</h5>
                 <p class="card-text">Video.js liburutegiarekin egindako Adaptive Bitrate streaming-a</p>
