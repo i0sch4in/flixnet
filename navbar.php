@@ -23,6 +23,10 @@
   <!-- videojs http streaming -->
   <script src="https://unpkg.com/browse/@videojs/http-streaming@2.3.0/dist/videojs-http-streaming.min.js"></script>
 
+  <!-- controlbar.js -->
+  <script src="http://reference.dashif.org/dash.js/latest/contrib/akamai/controlbar/ControlBar.js"></script>
+  <link rel="stylesheet" href="http://reference.dashif.org/dash.js/latest/contrib/akamai/controlbar/controlbar.css">
+
   <link href="style.css" rel="stylesheet">
 
   <link rel="icon" href="img/netflix-icon.svg">
@@ -39,6 +43,9 @@
     </div>
     <div class="container">
       <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.php" class="nav-link active">Hasiera</a>
+        </li>
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             VoD (static)
