@@ -17,7 +17,6 @@
   <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
   <script src="http://cdn.dashjs.org/v3.1.0/dash.all.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-dash/2.11.0/videojs-dash.min.js"></script>
-  <!-- <script src="http://cdn.dashjs.org/latest/dash.all.debug.js"></script> -->
   <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
 
   <!-- videojs http streaming -->
@@ -25,7 +24,8 @@
 
   <!-- controlbar.js -->
   <script src="http://reference.dashif.org/dash.js/latest/contrib/akamai/controlbar/ControlBar.js"></script>
-  <link rel="stylesheet" href="http://reference.dashif.org/dash.js/latest/contrib/akamai/controlbar/controlbar.css">
+  <link rel="stylesheet" href="controlbar.css">
+  <link rel="stylesheet" href="style.css">
 
   <link href="style.css" rel="stylesheet">
 
@@ -61,6 +61,7 @@
           </a>
           <div class="dropdown-menu">
             <a href="adaptive_dash.php" class="dropdown-item">Dash</a>
+            <a href="adaptive_controls.php" class="dropdown-item">ControlBar</a>
             <a href="adaptive_videojs.php" class="dropdown-item">VideoJS</a>
           </div>
         </li>
