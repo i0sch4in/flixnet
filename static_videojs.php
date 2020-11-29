@@ -1,8 +1,8 @@
-<?php include "navbar.php" ?>
+<?php include_once "navbar.php" ?>
 
 <div class="container">
   <h3>Airpods (Not For Poor People)</h3>
-  <video id="my-video" class="video-js" controls preload="auto" poster="MY_VIDEO_POSTER.jpg" data-setup="{}" autoplay>
+  <video id="my-video" class="video-js" controls preload="auto" data-setup="{}" poster="img/airpods_thumbnail.png">
     <source src="video/airpods.mp4" type="video/mp4" />
     <source src="video/airpods.webm" type="video/webm" />
     <p class="vjs-no-js">
@@ -13,4 +13,4 @@
   </video>
 </div>
 
-<?php include "footer.php" ?>
+<?php include_once "footer.php" ?>

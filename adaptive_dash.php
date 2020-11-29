@@ -1,8 +1,8 @@
-<?php include "navbar.php" ?>
+<?php include_once "navbar.php" ?>
 
 <div class="container">
   <div class="row">
-    <video id="videoPlayer" width="512" height="288" controls autoplay></video>
+    <video id="videoPlayer" width="512" height="288" controls poster="img/nature2_thumbnail2.png"></video>
   </div>
 </div>
 <script>
@@ -28,4 +28,4 @@
   });
 </script>
 
-<?php include "footer.php" ?>
+<?php include_once "footer.php" ?>

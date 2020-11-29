@@ -20,12 +20,11 @@
   <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
 
   <!-- videojs http streaming -->
-  <script src="https://unpkg.com/browse/@videojs/http-streaming@2.3.0/dist/videojs-http-streaming.min.js"></script>
+  <!-- <script src="https://unpkg.com/browse/@videojs/http-streaming@2.3.0/dist/videojs-http-streaming.min.js"></script> -->
 
   <!-- controlbar.js -->
   <script src="http://reference.dashif.org/dash.js/latest/contrib/akamai/controlbar/ControlBar.js"></script>
   <link rel="stylesheet" href="controlbar.css">
-  <link rel="stylesheet" href="style.css">
 
   <link href="style.css" rel="stylesheet">
 

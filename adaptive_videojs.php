@@ -1,13 +1,10 @@
-<?php include "navbar.php" ?>
+<?php include_once "navbar.php" ?>
 
 <div class="container">
   <div class="row">
-    <video id=nature class="video-js vjs-default-skin" width="512" height="288" controls autoplay> </video>
+    <video id=nature class="video-js vjs-default-skin" width="512" height="288" controls autoplay poster="img/nature2_thumbnail.png"> </video>
   </div>
 </div>
-
-
-<?php include "footer.php" ?>
 
 <script>
   var player = videojs('nature');
@@ -18,3 +15,5 @@
     });
   });
 </script>
+
+<?php include_once "footer.php" ?>

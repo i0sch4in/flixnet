@@ -1,8 +1,8 @@
-<?php include "navbar.php" ?>
+<?php include_once "navbar.php" ?>
 
 <div class="container">
   <div class="row-md" id="player">
-    <video-js id=vid1 width="512" height="288" class="vjs-default-skin" controls autoplay />
+    <video-js id=vid1 width="512" height="288" class="vjs-default-skin" controls poster="img/livestreaming_thumbnail.jpg" />
   </div>
   <!-- <div class="alert-danger" id="message" hidden>
     Bideoa ezin izan da erreproduzitu.
@@ -23,7 +23,7 @@
     errorDisplay: false
   });
   player.src({
-    src: 'http://flixnet.cf/live/my-stream-key/index.m3u8',
+    src: 'live/my-stream-key/index.m3u8',
     type: 'application/x-mpegURL',
     withCredentials: true
   });
@@ -32,4 +32,4 @@
   // })
 </script>
 
-<?php include "footer.php" ?>
+<?php include_once "footer.php" ?>
