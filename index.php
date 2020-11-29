@@ -47,7 +47,7 @@
 
         <div class="col-md-3">
             <div class="card">
-                <img src="img/nature2_thumbnail2.png" alt="" class="card-img-top">
+                <img src="img/nature2_thumbnail3.png" alt="" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Dash Controlbar</h5>
                     <p class="card-text">Dash.js liburutegiarekin egindako streaming-a, kontrol barra gehituta</p>

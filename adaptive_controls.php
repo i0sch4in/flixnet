@@ -5,7 +5,7 @@
     <div class="dash-video-player ">
       <!-- HTML structure needed for the ControlBar -->
       <div class="videoContainer" id="videoContainer">
-        <video id="videoPlayer" width="512" height="288" controls allowfullscreen poster="img/nature2_thumbnail2.png"></video>
+        <video id="videoPlayer" width="512" height="288" controls allowfullscreen poster="img/nature2_thumbnail3.png"></video>
         <div id="videoController" class="video-controller unselectable">
           <div id="playPauseBtn" class="btn-play-pause" title="Play/Pause">
             <span id="iconPlayPause" class="icon-play"></span>
